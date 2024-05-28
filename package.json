@@ -1,0 +1,20 @@
+{
+  "name": "erinee",
+  "version": "1.0.0",
+  "description": "virtual gf",
+  "main": "erinee.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nara",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^19.6.3",
+    "puppeteer-extra": "^3.3.4",
+    "puppeteer-extra-plugin-stealth": "^2.11.1",
+    "@google/generative-ai": "^0.2.1",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.15.4"
+  }
+}
