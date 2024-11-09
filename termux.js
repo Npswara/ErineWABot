@@ -63,7 +63,7 @@ async function generateimg(prompt, img, message) {
   const result = await model.generateContent([prompt, img]);
   const response = await result.response;
   const text = response.text();
-  await message.reply(text); //Reply to user
+  await message.reply(text); 
   delay(2000);
   mod = text;
   user = prompt;
